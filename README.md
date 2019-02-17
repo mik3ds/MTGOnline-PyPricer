@@ -1,6 +1,6 @@
 ## MTG Online - Sort Bot Prices Script
 
-This is a python script that sorts your MTGO trade binder based on the current price offered to you by bots through trade.I've been using this to maximise my trades for months, so if it can help me then I hope it can help you too.
+This is a python script that sorts your MTGO trade binder based on the current price offered to you by bots through trade. I've been using this to maximise my trades for months, so if it can help me then I hope it can help you too.
 
 ### How to use the script
 
