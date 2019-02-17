@@ -18,6 +18,8 @@ This script is only compatable with bots in the ManaTraders network.
 
 5. Run the script!
 
+![Image](https://i.imgur.com/9noZdzB.jpg)
+
 ### Options
 
 By default, the script sorts by card price using this line:
@@ -27,8 +29,6 @@ By default, the script sorts by card price using this line:
 You can change this to sort by card price times the amount of copies in your collection by commenting out the previous line and uncommenting this line:
 
   `l.sort(key = lambda x: x[2]*x[1], reverse=True)`
-  
-![Image](src)
 
 ### Next Update
 
