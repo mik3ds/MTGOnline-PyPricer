@@ -21,7 +21,7 @@ This script is only compatable with bots in the ManaTraders network.
 ![Image](https://i.imgur.com/RUo4IgP.jpg)
 
 
--Run the script!
+-Run the script. The result looks like this:
 
 
 ![Image](https://i.imgur.com/9noZdzB.jpg)
