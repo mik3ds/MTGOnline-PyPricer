@@ -10,11 +10,11 @@ This script is only compatable with bots in the ManaTraders network.
 2. Begin a trade with a bot on MTGO. If they don't automatically search your collection, message "sell"
 3. Copy and paste the trade messages from the MTGO client to a text editor
 
-![Image](https://imgur.com/CQEXME5)
+![Image](https://i.imgur.com/CQEXME5.jpg)
 
 4. Remove timestamps, bot names, and 'YOU GIVE' from the text (Ctrl+F) and paste it into the script in the section titled Edited_Text
 
-![Image](https://imgur.com/RUo4IgP)
+![Image](https://i.imgur.com/RUo4IgP.jpg)
 
 5. Run the script!
 
