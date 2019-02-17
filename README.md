@@ -7,16 +7,22 @@ This script is only compatable with bots in the ManaTraders network.
 ### How to use the script
 
 -Download pricer.py and open it with your preferred text editor or IDE (I've used [Jupyter Notebook](https://jupyter.org/))
+
 -Begin a trade with a bot on MTGO. If they don't automatically search your collection, message "sell"
+
 -Copy and paste the trade messages from the MTGO client to a text editor
 
 ![Image](https://i.imgur.com/CQEXME5.jpg)
 
+
 -Remove timestamps, bot names, and 'YOU GIVE' from the text (Ctrl+F) and paste it into the script in the section titled Edited_Text
+
 
 ![Image](https://i.imgur.com/RUo4IgP.jpg)
 
+
 -Run the script!
+
 
 ![Image](https://i.imgur.com/9noZdzB.jpg)
 
