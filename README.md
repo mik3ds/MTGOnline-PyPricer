@@ -2,12 +2,21 @@
 
 This is a python script that sorts your MTGO trade binder based on the current price offered to you by bots through trade. I've been using this to maximise my trades for months, so if it can help me then I hope it can help you too.
 
+This script is only compatable with bots in the ManaTraders network.
+
 ### How to use the script
 
 1. Download pricer.py and open it with your preferred text editor or IDE (I've used [Jupyter Notebook](https://jupyter.org/))
 2. Begin a trade with a bot on MTGO. If they don't automatically search your collection, message "sell"
-3. Copy and paste the trade messages from the MTGO client to the script, in the section titled Edited_Text
-4. Run the script!
+3. Copy and paste the trade messages from the MTGO client to a text editor
+
+![Image](https://imgur.com/CQEXME5)
+
+4. Remove timestamps, bot names, and 'YOU GIVE' from the text (Ctrl+F) and paste it into the script in the section titled Edited_Text
+
+![Image](https://imgur.com/RUo4IgP)
+
+5. Run the script!
 
 ### Options
 
@@ -21,6 +30,9 @@ You can change this to sort by card price times the amount of copies in your col
   
 ![Image](src)
 
+### Next Update
+
+-Automatic removal of bot names and timestamps
 
 ### Support or Contact
 
