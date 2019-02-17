@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## MTG Online - Sort Bot Prices Script
 
-You can use the [editor on GitHub](https://github.com/mik3ds/MTGOnline-SortBotPricesScript/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a python script that sorts your MTGO trade binder based on the current price offered to you by bots through trade.I've been using this to maximise my trades for months, so if it can help me then I hope it can help you too.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### How to use the script
 
-### Markdown
+1. Download pricer.py and open it with your preferred text editor or IDE (I've used [Jupyter Notebook](https://jupyter.org/))
+2. Begin a trade with a bot on MTGO. If they don't automatically search your collection, message "sell"
+3. Copy and paste the trade messages from the MTGO client to the script, in the section titled Edited_Text
+4. Run the script!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Options
 
-```markdown
-Syntax highlighted code block
+By default, the script sorts by card price using this line:
 
-# Header 1
-## Header 2
-### Header 3
+  `l.sort(key = lambda x: x[2], reverse=True)`
 
-- Bulleted
-- List
+You can change this to sort by card price times the amount of copies in your collection by commenting out the previous line and uncommenting this line:
 
-1. Numbered
-2. List
+  `l.sort(key = lambda x: x[2]*x[1], reverse=True)`
+  
+![Image](src)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mik3ds/MTGOnline-SortBotPricesScript/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having issues running the script? Feel free to [contact me](mikeds@live.com.au), I'd be happy to help with issues or receive general feedback in regards to features.
