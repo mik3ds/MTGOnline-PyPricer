@@ -42,4 +42,4 @@ You can change this to sort by card price times the amount of copies in your col
 
 ### Support or Contact
 
-Having issues running the script? Feel free to [contact me](mikeds@live.com.au), I'd be happy to help with issues or receive general feedback in regards to features.
+Having issues running the script? Feel free to [contact me](mikeds@live.com.au), I'd be happy to help with issues or receive general feedback.
